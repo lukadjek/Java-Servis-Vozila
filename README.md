@@ -39,13 +39,19 @@ DRUGI DEO (Forma «Prijem novog vozila u servis»)
 
 
 12. Uslovi (polja):
-	a) «Kilometraza» - max. broj je 999.999; min. broj je 1.000; unos specijalnih 	karaktera i slova je zabranjen; slider se takodje moze koristiti cijem se promenom 	za svaki tzv. step kilometraza menja za 1.000 (min. step 0; max. step 200.000),
-	b) «Broj sasije» - mora sadrzati tacno 7 cifara; unos brojeva i slova je dozvoljen; 	unos specijalnih karaktera je zabranjen; nakon sto se svako slovo ispise ono se   	mora konvertovati u veliko slovo tzv. u uppercase,
+	
+ 	a) «Kilometraza» - max. broj je 999.999; min. broj je 1.000; unos specijalnih 	karaktera i slova je zabranjen; 	slider se takodje moze koristiti cijem se promenom za svaki tzv. step kilometraza menja za 1.000 (min. step 0; 	    	    max. step 200.000),
+	
+   	b) «Broj sasije» - mora sadrzati tacno 7 cifara; unos brojeva i slova je dozvoljen; 	unos specijalnih karaktera 	   je zabranjen; nakon sto se svako slovo ispise ono se mora konvertovati u veliko slovo tzv. u uppercase,
+	
 	c) «Registarka oznaka» - mora biti u formatu:
-	$SLOVOSLOVO$-$BROJBROJBROJ$-$SLOVOSLOVO$; nakon klika van ovog 	polja, cela registarska oznaka se mora konvertovati u veliko slovo tzv. u 	uppercase,
-	d) «Redovne servisne usluge»: obuhvataju 3 servisa («Servis zamene ulja», 	«Inspekcijski servis», «Veliki servis»); prelazak misem preko odgovajuce 	checkbox opcije mora prikazati tekst (vise informacija o datom servisu) koji mora 	biti obradjen u HTML-u; mora se izabrati jedan servis i to: ili samo «Veliki 	servis» ili «Servis zamene ulja» i/ili «Inspekcijski servis»,
-	e) «Dodatne servisne usluge» - obuhvacene u listi koja je sakrivena iza dugmeta 	«Otvori listu», cijim se klikom otvara ista; ta lista obuhvata sledece dodatne 	servisne usluge: «Zamena kocione tecnosti», «Zamena pneumatika», «Kontrola 	rada 	motora», «Centriranje trapa», «Provera akumulatora», «Popravka 	karoserije»; moze se izabrati vise ovih usluga ili pak nijedna,
-	f) «Dodatne napomene» - max. broj karaktera u ovom polju je 160; ovo polje 	mora 	takodje sadrzati tzv. placeholder tekst «Napomene za servisere»; 	napomene se mogu navesti ili ne moraju; ukoliko ima napomena, onda se 	gore navedeni placeholder ne sme videti.
+	$SLOVOSLOVO$-$BROJBROJBROJ$-$SLOVOSLOVO$; nakon klika van ovog 	polja, cela registarska oznaka se mora konvertovati 	    u veliko slovo tzv. u uppercase,
+	
+ 	d) «Redovne servisne usluge»: obuhvataju 3 servisa («Servis zamene ulja», 	«Inspekcijski servis», «Veliki 		servis»); prelazak misem preko odgovajuce 	checkbox opcije mora prikazati tekst (vise informacija o datom 		servisu) koji mora 	biti obradjen u HTML-u; mora se izabrati jedan servis i to: ili samo «Veliki 	servis» ili 	    «Servis zamene ulja» i/ili «Inspekcijski servis»,
+	
+ 	e) «Dodatne servisne usluge» - obuhvacene u listi koja je sakrivena iza dugmeta 	«Otvori listu», cijim se 	klikom otvara ista; ta lista obuhvata sledece dodatne 	servisne usluge: «Zamena kocione tecnosti», «Zamena 	           pneumatika», «Kontrola 	rada 	motora», «Centriranje trapa», «Provera akumulatora», «Popravka 	karoserije»; moze 	se izabrati vise ovih usluga ili pak nijedna,
+	
+ 	f) «Dodatne napomene» - max. broj karaktera u ovom polju je 160; ovo polje 	mora 	takodje sadrzati tzv. 		placeholder tekst «Napomene za servisere»; 	napomene se mogu navesti ili ne moraju; ukoliko ima napomena, onda 	   se gore navedeni placeholder ne sme videti.
 
 13. U slucaju da su svi uslovi za polja u celosti ispunjeni, klikom na dugme «Potvrdi», pojavljuje se info. poruka da je vozilo uspesno uneto u bazu vozila i ta ista poruka mora automatski nestati nakon tacno 3 sekunde. Dalje se moze nastaviti sa unosom novog vozila ili zatvoriti prozor. U slucaju pojavljivanja ma kakve greske, unos vozila u bazu mora biti onemogucen i svaka greska mora biti jasno prikazana.
 
