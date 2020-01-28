@@ -40,7 +40,7 @@ DRUGI DEO (Forma «Prijem novog vozila u servis»)
 
 12. Uslovi (polja):
 	
- 	a) «Kilometraza» - max. broj je 999.999; min. broj je 1.000; unos specijalnih 	karaktera i slova je zabranjen; 	slider se takodje moze koristiti cijem se promenom za svaki tzv. step kilometraza menja za 1.000 (min. step 0; 	    	    max. step 200.000),
+ 	a) «Kilometraza» - max. broj je 999.999; min. broj je 1.000; unos specijalnih 	karaktera i slova je zabranjen; 	slider se takodje moze koristiti cijom se promenom za svaki tzv. step kilometraza menja za 1.000 (min. step 0; 	    	    max. step 200.000),
 	
    	b) «Broj sasije» - mora sadrzati tacno 7 cifara; unos brojeva i slova je dozvoljen; 	unos specijalnih karaktera 	   je zabranjen; nakon sto se svako slovo ispise ono se mora konvertovati u veliko slovo tzv. u uppercase,
 	
