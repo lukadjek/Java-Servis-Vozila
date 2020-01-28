@@ -60,17 +60,29 @@ TRECI DEO (Forma «Sva vozila»)
 1. Sva vozila koja se trenutno nalaze u bazi moraju biti prikazana preko tabele koja sadrzi sledece kolone: «Redni broj», «ID», «Marka vozila», «Model vozila», «Vreme», «Datum», «Kilometraza», «Broj sasije», «Registarska oznaka», «Rednovne servisne usluge», «Dodatne servisne usluge», «Napomene».
 
 2. Uslovi (kolone):
+
 	a) «Redni broj» - mora poceti od broja 1 i raste za sledeci naredni broj sa svakim 	novim vozilom unetom u bazu,
+	
 	b) «ID» - se odnosi na ID iz MySQL-a i ne mora se nuzno poklapati sa rednim 	brojem vozila (ovaj ID se koristi za brisanje vozila),
+	
 	c) «Marka vozila» - prikazuje izabranu marku vozila,
+	
 	d) «Model vozila» - sadrzi izabrani model vozila koji mora odgovorati marki 	vozila,
+	
 	e) «Vreme» - sadrzi izabrano vreme i mora biti u formatu: HH: MM (24h format - 	od 09h do 16h),
+	
 	f) «Datum» - sadrzi izabrani datum i mora biti u formatu: dd.MM.yyyy ,
+	
 	g) «Kilometraza» - sadrzi izabranu kilometrazu,
+	
 	h) «Broj sasije» - sadrzi izabrani broj sasije,
+	
 	i) «Registarska oznaka» - sadrzi izabranu registarsku oznaku,
+	
 	j) «Redovne servisne usluge» - sadrzi tekst o redovnoj izbranoj/izabranim 	servisnoj uslugi/servisnim uslugama,
+	
 	k) «Dodatne servisne usluge» - sadrzi tekst o dodatnoj izbranoj/izabranim 	servisnoj uslugi/servisnim uslugama ili znak «/» u slucaju da nema dodatne 	servisne usluge,
+	
 	l) «Napomene» - sadrzi tekst o napomenama ili znak «/» u slucaju da nema 	napomena.
 
 3. Detalji o tabeli: svaki put kada tabela dobije fokus ona se mora obnoviti u smislu da uvek prikazuje sveze podatke o vozilima koji se trenutno nalaze u bazi; sortiranje svake kolone mora biti moguce; pomeranje kolona mora biti moguce; samo jedan red u jednom trenutku moze biti selektovan.
