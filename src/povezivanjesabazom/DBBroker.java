@@ -127,8 +127,6 @@ public class DBBroker {
     
     public void obrisiVozilo(String selektovaniRed) {                   
         try {
-        // ne radi
-        
         String upit = "delete from vozila where ID = ?";
         PreparedStatement pripremljenaNaredba = konekcija.prepareStatement(upit);
         pripremljenaNaredba.setString(1, selektovaniRed);
