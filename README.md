@@ -29,7 +29,7 @@ PRVI DEO (Forma «Prijem novog vozila u servis»)
 
 9. Uslov (datum i vreme): U slucaju biranja danasnjeg datuma (datuma pokretanja programa), mora se proveriti vreme. Izabrano vreme mora biti nakon trenutnog vremena pokretanja forme.
 
-10. Obaveza polja: 
+10. Obavezna polja: 
 	a) «Marka vozila», 
 	b) «Model vozila»,
 	c) «Vreme prijema»,
