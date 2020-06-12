@@ -2,6 +2,9 @@ SPECIFIKACIJA
 
 Kratak opis:
 	Program koji omogucava serviseru da unese sve potrebne podatke o vozilu koje 	je potrebno servisirati i jasno vidi sva vozila koja su zakazana za servis.
+	
+Mala napomena: da bi ovaj program radio na Vasem okruzenju, potrebno je da uspostavite tacnu konekciju tako sto cete dati ispravne podatke za povezivanje sa Vasom bazom (paket: povezivanjesabazom -> klasa: DBBroker -> metoda: poveziSe). Naravno, pre toga morati kreirati potrebne tabele u SQL-u i popuniti ih podacima tako sto cete izvrsiti potrebne komande 
+(paket: sql -> klasa: Servis_Vozila_Luka_DB).
 
 
 PRVI DEO (Forma «Prijem novog vozila u servis»)
